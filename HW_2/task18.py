@@ -13,7 +13,7 @@ A_num = list(map(int, A_entered))
 if len(A_num) != N or N == 0:
     print('Введенные элементы не соответствуют заявленному количеству!')
 else:
-    X = int(input('Введите число X, с которым необходимо сравнивать элементы списка: '))
+    X = int(input('Введите число X: '))
     min = abs(X - A_num[0])
     index = 0
     for i in range(1, N):
